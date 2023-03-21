@@ -5,7 +5,7 @@ import pandas as pd
 st.header("Pendapatan Per Bulan")
 
 df = pd.DataFrame({
-  'Bulan': ['Januari', 'Februari', 'Maret', 'April', 'Mei'],
+  'Bulan': ['1. Januari', '2. Februari', '3. Maret', '4. April', '5. Mei'],
   'Pendapatan': [20000, 35000, 27000, 36000, 49000]
 }, index=[1,2,3,4,5])
 
